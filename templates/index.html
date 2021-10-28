@@ -1,0 +1,5 @@
+<form acting="{% url 'index' %}" method="post">
+{% csrf_token%}
+{{postForm}}
+<input type="submit" value="Submit">
+</form>
